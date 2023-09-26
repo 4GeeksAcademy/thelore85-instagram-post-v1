@@ -1,7 +1,6 @@
-div{
-  margin: 0;
-}
-
+/* /////////////
+general setting
+///////////////// */
 html {
     margin: 0;
     padding: 0;
@@ -40,27 +39,31 @@ h1{
     padding:0;
 }
 
+p{
+  margin: 0;
+  padding: 0;
+}
+
+/* ////////////////////////
+site header
+/////////////////////// */
 
 #header {
   background-color: white;
 }
+
+/* //////////////////////
+card styling
+///////////////////// */
 
 #feed .card{
   width: 100%;
   max-width: 400px;
   margin: 30px auto;
   border: solid rgb(233, 233, 233) 1px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: white;
-}
-
-
-#feed h3{
-  padding: 10px;
-  margin: 0;
-  font-weight: 500;
-  font-size: 16px;
-  float: left;
+  padding-bottom: 1rem;
 }
 
 #feed span{
@@ -70,12 +73,68 @@ h1{
   color: rgb(167, 167, 167);
 }
 
-#feed img{
-  width: 100%;
+#feed p{
+  font-size: 12px;
+  color: rgb(86, 86, 86);
 }
 
-#feed p{
-  padding: 10px;
-  font-size: 12px;
-  color: gray;
+
+/* //////////////// */
+ /* card title */
+
+ #feed .card-title{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#feed .user-info{
+  display: flex;
+  align-items: center;
+}
+
+#feed .user-info i{
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+}
+
+#feed .menu i{
+  font-size: 1.7rem;
+}
+
+#feed .user-info p{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* card image  */
+
+#feed img{
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+
+/* card description */
+.icon-description{
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon-description i{
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+}
+
+.icon-description i:last-of-type{
+  margin-right: 0rem;
+}
+
+.card-description p{
+  margin-bottom: 0.5rem;
+  padding: 0rem 1em;
 }
