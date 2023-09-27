@@ -21,7 +21,7 @@ body {
 
 section{
     display: block;
-    padding: 30px 10px;
+    padding: 3rem 1rem;
     width: 100%;
 }
 
@@ -44,6 +44,19 @@ p{
   padding: 0;
 }
 
+
+
+/* /////////////////////////
+BOOTSTRAP
+//////////////////////// */
+.container-fluid {
+  padding: 0px 0px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(318deg, rgba(41, 217, 220, 0.764) 0%, rgba(253, 187, 45, 0.551) 100%);
+}
+
+
+
 /* ////////////////////////
 site header
 /////////////////////// */
@@ -56,25 +69,25 @@ site header
 card styling
 ///////////////////// */
 
-#feed .card{
+.card{
   width: 100%;
   max-width: 400px;
-  margin: 30px auto;
+  margin: 2rem auto;
   border: solid rgb(233, 233, 233) 1px;
   border-radius: 5px;
   background-color: white;
   padding-bottom: 1rem;
 }
 
-#feed span{
+.card span{
   float: right;
-  padding: 10px;
-  font-size: 14px;
+  padding: 1rem ;
+  font-size: 1.2rem;
   color: rgb(167, 167, 167);
 }
 
-#feed p{
-  font-size: 12px;
+.card p{
+  font-size: 0.75rem;
   color: rgb(86, 86, 86);
 }
 
@@ -82,36 +95,37 @@ card styling
 /* //////////////// */
  /* card title */
 
- #feed .card-title{
+ .card .card-title{
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  margin: 0rem;
 }
 
-#feed .user-info{
+.card .user-info{
   display: flex;
   align-items: center;
 }
 
-#feed .user-info i{
-  font-size: 1.6rem;
+.card .user-info i{
+  font-size: 2.5rem;
   margin-right: 0.5rem;
 }
 
-#feed .menu i{
-  font-size: 1.7rem;
+.card .menu i{
+  font-size: 1.9rem;
 }
 
-#feed .user-info p{
+.card .user-info p{
   padding: 0px;
   margin: 0px;
 }
 
 /* card image  */
 
-#feed img{
+.card img{
   width: 100%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 
